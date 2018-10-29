@@ -1,3 +1,8 @@
+#Students
+Gabriel da Silva Barreto 1633376
+Ricardo dos Santos 1380320
+Vinicius Gabriel 1749480
+
 # Repository of Software Architecture Artefacts
 
 This repository groups artefacts used on software architecture module. This module is delivered to undergraduate students of computer science-related courses at Universidade Tecnológica Federal do Paraná, Cornélio Procópio, Brazil.  
@@ -66,29 +71,5 @@ Thus you just need to clone and run, like this:
 git clone -b App06 https://github.com/gabrielcostasilva/software-architecture-2018-2.git
 
 cd software-architecture-2018-2
-
 mvn clean spring-boot:run
-```
-
-### App07
-This branch features a REST API example by using Spring boot.
-
-To see it in action, first clone and run the project:
-
-```
-git clone -b App07 https://github.com/gabrielcostasilva/software-architecture-2018-2.git
-
-cd software-architecture-2018-2
-
-mvn clean spring-boot:run
-```
-
-Then, use a REST client tool (curl, httpie, postman) to access the endpoints. Using curl, you can:
-
-```
-curl -X GET localhost:8080/hello
-
-curl -X POST localhost:8080/person -H "Content-type: application/json" -d '{"name": "John Connor", "age": 14}' localhost:8080/person
-
-curl -X PUT localhost:8080/person -H "Content-type: application/json" -d '{"name": "John Connor", "age": 14}' localhost:8080/person
 ```
